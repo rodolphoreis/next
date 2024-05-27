@@ -4,8 +4,8 @@ import Title from "../../../components/Title";
 const usandoTitulo = () => {
   return (
     <div>
-      <h2>Usando Título</h2>
       <Title principal="Rodolpho" secundario="Reis" />
+      <Title principal="Rodolpho" secundario="Reis" pequeno />
     </div>
   );
 };
