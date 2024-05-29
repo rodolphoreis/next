@@ -1,6 +1,7 @@
 import { useState } from "react";
+import CountStyle from "../../../components/CountStyle";
 
-const CountComponent = () => {
+const CountComponent = (props: React.CSSProperties) => {
   const [count, setCount] = useState<number>(0);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -10,6 +11,7 @@ const CountComponent = () => {
 
   return (
     <div>
+      <CountStyle color={"white"} backgroundColor={"red"} />
       <form onSubmit={handleSubmit}>
         <input
           type="number"
