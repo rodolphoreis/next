@@ -1,4 +1,3 @@
-import { listenerCount } from "process";
 import listaProdutos from "../../../data/listaProdutos";
 
 const repeticao = () => {
