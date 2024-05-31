@@ -6,6 +6,7 @@ const usandoTitulo = () => {
     <div>
       <Title principal="Rodolpho" secundario="Reis" />
       <Title principal="Rodolpho" secundario="Reis" pequeno />
+    
     </div>
   );
 };
