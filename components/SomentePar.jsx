@@ -1,9 +1,7 @@
 const SomentePar = (props) => {
-  if (props.numero % 2 === 0) {
-    return <span>{props.numero}</span>;
-  } else {
-    return null;
-  }
+  const numeroPar = props.numero % 2 === 0;
+
+  return numeroPar ? <span>{props.numero}</span> : null;
 };
 
 export default SomentePar;
