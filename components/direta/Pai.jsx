@@ -5,7 +5,7 @@ const Pai = () => {
   const sobreNome = "Santos";
   return (
     <div>
-      <Filho familia={"Reis"} />
+      <Filho nome={nome} familia={sobreNome} />
     </div>
   );
 };
