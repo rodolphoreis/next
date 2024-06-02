@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const mouse = () => {
   const estilo = {
     display: "flex",
@@ -9,10 +11,18 @@ const mouse = () => {
     height: "100vh",
   };
 
+  const [x, setX] = useState();
+  const [y, setY] = useState();
+
+  const MovendoMouse = (e) => {
+    setX(e.clientX);
+    setY(e.clientY);
+  };
+
   return (
-    <div style={estilo}>
-      <span>Eixo x: </span>
-      <span>Eixo y: </span>
+    <div style={estilo} onMouseMove={MovendoMouse}>
+      <span>Eixo x: {x} </span>
+      <span>Eixo y: {y}</span>
     </div>
   );
 };
