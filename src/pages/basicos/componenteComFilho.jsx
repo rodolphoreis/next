@@ -1,7 +1,13 @@
+import Item from "../../../components/Item";
+import Lista from "../../../components/Lista";
+
 const componenteComFilho = () => {
   return (
     <div>
-      <h2>componenteComFilho</h2>
+      <Lista>
+        <Item conteudo={"Bola"} />
+        <Item conteudo={"camisa"} />
+      </Lista>
     </div>
   );
 };
