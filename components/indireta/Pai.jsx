@@ -1,9 +1,13 @@
 import Filho from "./Filho";
 
-const Pai = (props) => {
+const Pai = () => {
+  const FalarComigo = (param) => {
+    console.log(param);
+  };
+
   return (
     <div>
-      <Filho />
+      <Filho funcao={FalarComigo} />
     </div>
   );
 };
