@@ -11,6 +11,13 @@ const botao = () => {
     <div>
       <button onClick={Acao}>Click</button>
       <button onClick={Acao2}>Click 2</button>
+      <button
+        onClick={function () {
+          console.log("botao 3");
+        }}
+      >
+        Click 3
+      </button>
     </div>
   );
 };
