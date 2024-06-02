@@ -18,6 +18,7 @@ const botao = () => {
       >
         Click 3
       </button>
+      <button onClick={() => console.log("Botão 4")}>Click 4</button>
     </div>
   );
 };
