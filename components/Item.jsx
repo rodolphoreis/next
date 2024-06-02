@@ -1,7 +1,7 @@
 const Item = (props) => {
   return (
     <div>
-      <li>{props.item}</li>
+      <li>{props.conteudo}</li>
     </div>
   );
 };
