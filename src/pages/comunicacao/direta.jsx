@@ -1,5 +1,11 @@
+import Pai from "../../../components/direta/Pai";
+
 const direta = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Pai />
+    </div>
+  );
 };
 
 export default direta;
