@@ -1,5 +1,9 @@
 const formulario = () => {
-  return <div></div>;
+  return (
+    <div>
+      <input type="text" placeholder="Digite aqui" />
+    </div>
+  );
 };
 
 export default formulario;
