@@ -6,6 +6,9 @@ export default class Contador extends Component {
   };
 
   render() {
-    <h1>Componente feito com class</h1>;
+    <div>
+      <h1>Componente feito com class</h1>;<h2>{this.props.valorInicial}</h2>
+      <h2>{this.state.numero}</h2>
+    </div>;
   }
 }
