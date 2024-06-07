@@ -5,3 +5,7 @@ export default function Comp1() {
 export const Comp2 = function () {
   return <h2>Comp2</h2>;
 };
+
+export const Comp3 = () => {
+  return <h2>Comp #03</h2>;
+};
