@@ -1,5 +1,5 @@
 import React from "react";
-import Comp1, { Comp2 } from "../../../components/funcionais";
+import Comp1, { Comp2, Comp3 } from "../../../components/funcionais";
 
 const teste = () => {
   return (
@@ -8,6 +8,7 @@ const teste = () => {
 
       <Comp1 />
       <Comp2 />
+      <Comp3 />
     </div>
   );
 };
