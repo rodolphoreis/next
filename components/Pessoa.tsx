@@ -1,4 +1,9 @@
-const Pessoa = (props: any) => {
+interface PessoaProps {
+  nome: string;
+  idade: number;
+}
+
+const Pessoa = (props: PessoaProps) => {
   return (
     <div>
       <div>Nome: {props.nome}</div>
